@@ -1,0 +1,22 @@
+{
+  "name": "hatchways",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "supertest": "^6.1.6"
+  }
+}
